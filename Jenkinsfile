@@ -1,7 +1,8 @@
-def imageName="192.168.44.44:8082/docker_repo/backend"
+def imageName="zolalukas/docker-backend"
 def dockerTag=""
-def deckerRegistry="https://192.168.44.44:8082"
-def registryCredentials="artifactory"
+def deckerRegistry=""
+def registryCredentials="dockerhub"
+
 
 pipeline {
        agent {
